@@ -1,6 +1,5 @@
 # Çözüm
-proje/
-
+proje/\n
 |    |-- Base/
 |    |       |-- __init__.py
 |    |       |-- BaseClass.py
