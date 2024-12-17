@@ -23,4 +23,4 @@ proje/
 main.py
 ````
 Yapınızı buna çevirince, Base ve Sub dosyalarının bulunduğu dizine erişebiliyor ".." işlemi hatasız çalışıyor.(en azından bende öyle oldu)
-Ve aynı şekilde **from ..Base.BaseClass import (class'ın ismi)** satırı bu kez hata vermedi.
+Ve aynı şekilde **"from ..Base.BaseClass import (class'ın ismi)"** satırı bu kez hata vermedi.
