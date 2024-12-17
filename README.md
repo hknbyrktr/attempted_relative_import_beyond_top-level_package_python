@@ -15,7 +15,7 @@ Bu yapıda kök dizininiz main.py ve anladığım kadarıyla python ancak bu diz
 bu dizine erişemiyor.
 Ama : 
 
-
+````
 proje/
 |    |-- Base/
 |    |       |-- __init__.py
@@ -24,6 +24,6 @@ proje/
 |    |       |-- __init__.py
 |    |       |-- SubClass.py
 main.py
-
+````
 Yapınızı buna çevirince, Base ve Sub dosyalarının bulunduğu dizine erişebiliyor ".." işlemi hatasız çalışıyor.(en azından bende öyle oldu)
 Ve aynı şekilde **from ..Base.BaseClass import (class'ın ismi)** satırı bu kez hata vermedi.
