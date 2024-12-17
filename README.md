@@ -1,5 +1,6 @@
 # Çözüm
 proje/
+
 |    |-- Base/
 |    |       |-- __init__.py
 |    |       |-- BaseClass.py
