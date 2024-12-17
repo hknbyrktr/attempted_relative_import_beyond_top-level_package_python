@@ -1,5 +1,5 @@
 # Çözüm
-'''
+"""
 proje/
 |    |-- Base/
 |    |       |-- __init__.py
@@ -8,7 +8,7 @@ proje/
 |    |       |-- __init__.py
 |    |       |-- SubClass.py
 |    |-- main.py
-'''
+"""
 yukarıdaki yapıya benzer bir yapım vardı ve bu şekilde iken SubClass.py' den BaseClass.py' deki bir Class' a erişmek için şunu kullanıyordum : **from ..Base.BaseClass import (class'ın ismi)** 
 ama bu şekilde kullanınca **"attempted relative import beyond top-level package pythonattempted relative import beyond top-level package python"** hatası verdi.
 Bu yapıda kök dizininiz main.py ve anladığım kadarıyla python ancak bu dizinin alt dizinlerini çözümleyebiliyor. Yani siz SubClass'da ".." diyerek üst dizine çıkmak istediğinizde burası çözümlenmediği için
